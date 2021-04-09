@@ -11,7 +11,7 @@ The available employee information is located in six CSV files; this project wil
 
 <li>There are <b>90,398</b> Employees that are within the retirement age range and <b>41,380</b> that are eligible for retirement package</li>
 
-<li> The retirement eligibility by department is broken down as: <li>
+<li> The retirement eligibility by department is broken down as: </li>
 <ul> Marketing - 2199 </ul>
 <ul> Finance - 1908 </ul> 
 <ul> Human Resource - 1953 </ul>
@@ -26,13 +26,13 @@ The available employee information is located in six CSV files; this project wil
 
 <li> The Retirement by most recent Employees title is broken down as:</li>
 
-Senior Engineer - 29414 
-Senior Staff - 28254
-Engineer - 14222 
-Staff - 12243
-Technique Leader - 4502 
-Assistant Engineer - 1761 
-Manager - 2 
+<ul> Senior Engineer - 29414 </ul>
+<ul> Senior Staff - 28254 </ul>
+<ul> Engineer - 14222 </ul>
+<ul> Staff - 12243 </ul>
+<ul> Technique Leader - 4502 </ul>
+<ul> Assistant Engineer - 1761 </ul>
+<ul> Manager - 2 </ul>
 
 [Retirement by Title](https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.csv)
 
