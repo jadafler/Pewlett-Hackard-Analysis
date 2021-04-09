@@ -25,7 +25,7 @@ There are <b>90,398</b> Employees that are within the retirement age range and <
 A full list of retirement age employees - <a href="https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/eligibility_by_department.csv>Eligibility by Department</a>
 
 <ul> The Retirement by most recent Employees title is broken down as:
-<ol type = "1">
+<ol>
 <li> Senior Engineer - 29414 </li>
 <li> Senior Staff - 28254 </li>
 <li> Engineer - 14222 </li>
