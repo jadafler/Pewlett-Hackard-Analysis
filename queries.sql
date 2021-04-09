@@ -1,3 +1,71 @@
+-- Creating tables for PH-EmployeeDB
+CREATE TABLE departments (
+     dept_no VARCHAR(4) NOT NULL,
+     dept_name VARCHAR(40) NOT NULL,
+     PRIMARY KEY (dept_no),
+     UNIQUE (dept_name)
+);
+
+CREATE TABLE employees (
+     emp_no INT NOT NULL,
+     birth_date DATE NOT NULL,
+     first_name VARCHAR NOT NULL,
+     last_name VARCHAR NOT NULL,
+     gender VARCHAR NOT NULL,
+     hire_date DATE NOT NULL,
+     PRIMARY KEY (emp_no)
+);
+
+CREATE TABLE dept_manager (
+    dept_no VARCHAR(4) NOT NULL,
+    emp_no INT NOT NULL,
+    from_date DATE NOT NULL,
+    to_date DATE NOT NULL,
+FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
+    PRIMARY KEY (emp_no, dept_no)
+);
+
+CREATE TABLE salaries (
+  emp_no INT NOT NULL,
+  salary INT NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  PRIMARY KEY (emp_no)
+);
+
+CREATE TABLE dept_emp (
+  emp_no INT NOT NULL,
+  dept_no VARCHAR(4) NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
+  PRIMARY KEY (emp_no, dept_no)
+);
+
+CREATE TABLE titles (
+  emp_no INT NOT NULL,
+  title VARCHAR (40) NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  PRIMARY KEY (emp_no)
+);
+
+DROP TABLE titles;
+
+CREATE TABLE titles (
+	emp_no INT NOT NULL,
+	title varchar NOT NULL,
+	from_date DATE NOT NULL,
+	to_date DATE NOT NULL,
+	FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
+);
+
+SELECT * FROM titles;
+
 --Select age out employees
 SELECT first_name, last_name
 FROM employees
@@ -171,14 +239,22 @@ ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
 
-SELECT de.emp_no,
-emp.first_name,
-emp.last_name,
-dept.dept_name
---INTO sales_team_info
-FROM dept_emp as de
-JOIN departments as dept
-JOIN employees AS emp
-ON (emp.emp_no = de.emp_no)
-WHERE (de.dept_no = 'd007')
-;
+SELECT ce.emp_no,
+	   ce.first_name,
+	   ce.last_name,
+	   di.dept_name
+INTO sales_dept_info
+FROM current_emp AS ce
+INNER JOIN dept_info AS di
+ON (ce.emp_no = di.emp_no)
+WHERE (di.dept_name = 'Sales');
+
+SELECT ri.emp_no,
+	   ri.first_name,
+	   ri.last_name,
+	   di.dept_name
+INTO sales_development_info
+FROM retirement_info AS ri
+INNER JOIN dept_info AS di
+ON (ri.emp_no = di.emp_no)
+WHERE dept_name IN ('Sales', 'Development');
