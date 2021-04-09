@@ -11,18 +11,18 @@ The available employee information is located in six CSV files; this project wil
 
 <li>There are <b>90,398</b> Employees that are within the retirement age range and <b>41,380</b> that are eligible for retirement package</li>
 
-<li>The retirement eligibility by department is broken down as:<li>
-Marketing - 2199 
-Finance - 1908 
-Human Resource - 1953 
-Production -  8174 
-Development - 9281 
-Quality Management - 2234 
-Sales - 5860 
-Research - 2413 
-Customer Service - 2597 
+<li> The retirement eligibility by department is broken down as: <li>
+<ul> Marketing - 2199 </ul>
+<ul> Finance - 1908 </ul> 
+<ul> Human Resource - 1953 </ul>
+<ul> Production -  8174 </ul>
+<ul> Development - 9281 </ul> 
+<ul> Quality Management - 2234 </ul> 
+<ul> Sales - 5860 </ul>
+<ul> Research - 2413 </ul>
+<ul> Customer Service - 2597 </ul>
 
-![Eligibility by Department] ("https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/eligibility_by_department.csv)
+[Eligibility by Department](https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/eligibility_by_department.csv)
 
 <li> The Retirement by most recent Employees title is broken down as:</li>
 
@@ -34,7 +34,7 @@ Technique Leader - 4502
 Assistant Engineer - 1761 
 Manager - 2 
 
-[Retirement by Title] ("https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.csv)
+[Retirement by Title](https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.csv)
 
 <li> The Mentorship Eligibility offers Employees that meet the criteria to mentor incoming and newly promoted employees and there are <b>1,549</b> Employees available to join the Mentorship Program as Mentors. </li>
 
