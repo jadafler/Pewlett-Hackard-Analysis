@@ -7,11 +7,9 @@ Pewlett Hackard is looking to evaluate the retirement rate and what positions wi
 
 The available employee information is located in six CSV files; this project will import the available data and create exportable CSVs to show those eligible for the retirement package, retirement, and mentorship program leaders.
 
-<img src="Analysis/challenge_fare_summary.png" alt="Average Fare per Driver per City Type">
-
 ## Results
 
-<ul> There are <b>90,398</b> Employees that are within the retirement age range and <b>41,380</b> that are eligible for retirement package. </ul>
+There are <b>90,398</b> Employees that are within the retirement age range and <b>41,380</b> that are eligible for retirement package.
 
 <ul> The retirement eligibility by department is broken down as:
 <li> Marketing - 2199 </li>
@@ -27,6 +25,7 @@ The available employee information is located in six CSV files; this project wil
 A full list of retirement age employees - <a href="https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/eligibility_by_department.csv>Eligibility by Department</a>
 
 <ul> The Retirement by most recent Employees title is broken down as:
+<ol type = "1">
 <li> Senior Engineer - 29414 </li>
 <li> Senior Staff - 28254 </li>
 <li> Engineer - 14222 </li>
@@ -34,6 +33,7 @@ A full list of retirement age employees - <a href="https://github.com/jadafler/P
 <li> Technique Leader - 4502 </li>
 <li> Assistant Engineer - 1761 </li>
 <li> Manager - 2 </li>
+</ol>
 
 A full list of retirement age employees - <a href="https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.csv>Retirement by Title</a>
 
