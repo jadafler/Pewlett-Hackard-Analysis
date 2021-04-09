@@ -9,39 +9,38 @@ The available employee information is located in six CSV files; this project wil
 
 ## Results
 
-There are <b>90,398</b> Employees that are within the retirement age range and <b>41,380</b> that are eligible for retirement package.
+<li>There are <b>90,398</b> Employees that are within the retirement age range and <b>41,380</b> that are eligible for retirement package</li>
 
-<ul> The retirement eligibility by department is broken down as:
-<li> Marketing - 2199 </li>
-<li> Finance - 1908 </li>
-<li> Human Resource - 1953 </li>
-<li> Production -  8174 </li>
-<li> Development - 9281 </li>
-<li> Quality Management - 2234 </li>
-<li> Sales - 5860 </li>
-<li> Research - 2413 </li>
-<li> Customer Service - 2597 </li>
+<li>The retirement eligibility by department is broken down as:<li>
+Marketing - 2199 </li>
+Finance - 1908 </li>
+Human Resource - 1953 </li>
+Production -  8174 </li>
+Development - 9281 </li>
+Quality Management - 2234 </li>
+Sales - 5860 </li>
+Research - 2413 </li>
+Customer Service - 2597 </li>
 
-A full list of retirement age employees - <a href="https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/eligibility_by_department.csv>Eligibility by Department</a>
+[Eligibility by Department]("https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/eligibility_by_department.csv)
 
-<ul> The Retirement by most recent Employees title is broken down as:</ul>
+<li> The Retirement by most recent Employees title is broken down as:
 
-1. Senior Engineer - 29414 
-2. Senior Staff - 28254
-3. Engineer - 14222 
-4. Staff - 12243
-5. Technique Leader - 4502 
-6. Assistant Engineer - 1761 
-7. Manager - 2 
+Senior Engineer - 29414 
+Senior Staff - 28254
+Engineer - 14222 
+Staff - 12243
+Technique Leader - 4502 
+Assistant Engineer - 1761 
+Manager - 2 </li>
 
+[Retirement by Title]("https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.csv)
 
-A full list of retirement age employees - <a href="https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.csv>Retirement by Title</a>
-
-<ul> The Mentorship Eligibility offers Employees that meet the criteria to mentor incoming and newly promoted employees and there are <b>1,549</b> Employees available to join the Mentorship Program as Mentors. </ul>
+<li> The Mentorship Eligibility offers Employees that meet the criteria to mentor incoming and newly promoted employees and there are <b>1,549</b> Employees available to join the Mentorship Program as Mentors. </li>
 
 ## Summary
 
-<li> There are many roles that will need to be filled during this transition; currently approximately half of the active managers are expected to retire with over 90,000 of retirement age and a little over 40% are eligible for the retirement package which will encourage the retirement event. </li>
+1. There are many roles that will need to be filled during this transition; currently approximately half of the active managers are expected to retire with over 90,000 of retirement age and a little over 40% are eligible for the retirement package which will encourage the retirement event. </li>
 
-<li> There are only 1,549 that can contribute to the Mentorship Program to train the upcoming generation for Pewlett Hackard's leadership population. A separate set of Employees needs to evaluated that can assist in contributing to the Mentorship program by providing support to the Mentors. </li>
+2. There are only 1,549 that can contribute to the Mentorship Program to train the upcoming generation for Pewlett Hackard's leadership population. A separate set of Employees needs to evaluated that can assist in contributing to the Mentorship program by providing support to the Mentors. </li>
 
