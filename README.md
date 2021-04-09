@@ -3,7 +3,7 @@ Module 7
 
 ## Overview of Project
 
-Pewlett Hackard is looking to evaluate the retirement rate and what positions will need to be filled. Pewlett Hackard is offering retirement packages for those that qualify and would like to monitor the rate in which employees will age out of the work force to include those eligible for the retirement packages. To continue to invest in their employees, Hewlett Packward is evaluating a mentorship program. 
+Pewlett Hackard is looking to evaluate the retirement rate and what positions will need to be filled. Pewlett Hackard is offering retirement packages for those that qualify and would like to monitor the rate in which employees will age out of the work force to include those eligible for the retirement packages. To continue to invest in their employees, Pewlett Hackward is evaluating a mentorship program. 
 
 The available employee information is located in six CSV files; this project will import the available data and create exportable CSVs to show those eligible for the retirement package, retirement, and mentorship program leaders.
 
@@ -11,48 +11,37 @@ The available employee information is located in six CSV files; this project wil
 
 ## Results
 
-The total number of those retiring for each department:
+<ul> There are <b>90,398</b> Employees that are within the retirement age range and <b>41,380</b> that are eligible for retirement package. </ul>
 
-<img src="Retiring_Titles.jpg" alt="Retiring Totals by Title">
+<ul> The retirement eligibility by department is broken down as:
+<li> Marketing - 2199 </li>
+<li> Finance - 1908 </li>
+<li> Human Resource - 1953 </li>
+<li> Production -  8174 </li>
+<li> Development - 9281 </li>
+<li> Quality Management - 2234 </li>
+<li> Sales - 5860 </li>
+<li> Research - 2413 </li>
+<li> Customer Service - 2597 </li>
 
-A full list of retirement age employees - <a href=">Retirement Aged Employees</a>
+A full list of retirement age employees - <a href="https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/eligibility_by_department.csv>Eligibility by Department</a>
 
-<img src="Resources/rides_per_city_type.png" alt="Total Rides per City Type">
+<ul> The Retirement by most recent Employees title is broken down as:
+<li> Senior Engineer - 29414 </li>
+<li> Senior Staff - 28254 </li>
+<li> Engineer - 14222 </li>
+<li> Staff - 12243 </li>
+<li> Technique Leader - 4502 </li>
+<li> Assistant Engineer - 1761 </li>
+<li> Manager - 2 </li>
 
-The total ride counts per city type (defined as Rural, Suburban, and Urban) show that there is an expected significant increase, 260%, in larger urban areas than in suburban or rural areas. Likewise, the number of total rides significantly decreases, -500%, further looking at the data from rural cities. 
+A full list of retirement age employees - <a href="https://github.com/jadafler/Pewlett-Hackard-Analysis/blob/main/Analysis-Projects-Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.csv>Retirement by Title</a>
 
-<B><li>Total Drivers per City Type</li></B>
+<ul> The Mentorship Eligibility offers Employees that meet the criteria to mentor incoming and newly promoted employees and there are <b>1,549</b> Employees available to join the Mentorship Program as Mentors. </ul>
 
-<img src="Resources/drivers_per_city_type.png" alt="Total Drivers per City Type">
+## Summary
 
-The total amount fo drivers per city type supports the data reflecting the amount of rides per city type in that there is a significant increase, 490%, in the total driver count in more populated urban cities and further decreasing, -628%, in the suburban cities and further decreasing in the rural cities.  
+<li> There are many roles that will need to be filled during this transition; currently approximately half of the active managers are expected to retire with over 90,000 of retirement age and a little over 40% are eligible for the retirement package which will encourage the retirement event. </li>
 
-<B><li>Total Fares per City Type</li></B>
-
-<img src="Resources/fare_per_city_type.png" alt="Total Fares per City Type">
-
-Continuing with the trending data that urban cities have the most activity with the ride share app; the total collected fares provide supporting evidence for this conclusion. The total collected fare for the urban cities is 205% more than the rural cities. Additionally, the total collected fares in the suburban cities is 447% more than the rural cities.  
-
-<B><li>Average Fare per Ride per City Type</li></B>
-
-<img src="Resources/average_fare_per_city_type.png" alt="Average Fare per City Type">
-
-The average fare per city type reflects that the ride per driver dynamic creates lower fares in the more heavily populated urban cities possibly suggesting that there are more rides that are more competitively priced as the urban average fare is 126% less than the suburban cities and the suburban cities are 112% less than the rural cities. 
-
-<B><li>Average Fare per Driver per City Type</li></B>
-
-<img src="Resources/average_fare_per_driver_per_city_type.png" alt="Average Fare per Driver per City Type">
-
-The average fare per driver per city type displays that there is a higher average for the rural cities' drivers as the fare is 140% higher than the suburban cities and the urban cities' drivers' average fare is 238% higher than the urban cities' drivers.  
-  
-
-## Business Recommendation Summary
-
-The analysis and visualizations offer a look into the different city types to see where there is opportunity to to identify challenges and increase business. A few recommendations are:
-
-1. Increase advertising efforts to drive traffic to booking ride share app fares to increase the fares in urban cities.
-
-2. Increase drivers in rural cities to supplement the demand.
-
-3. Explore more service driven rides in urban areas by targeting customers that are utilizing ride share apps to avoid parking charges, city traffic, travel to and from business and personal appointments and errands. 
+<li> There are only 1,549 that can contribute to the Mentorship Program to train the upcoming generation for Pewlett Hackard's leadership population. A separate set of Employees needs to evaluated that can assist in contributing to the Mentorship program by providing support to the Mentors. </li>
 
